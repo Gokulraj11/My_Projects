@@ -1,0 +1,82 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+html , body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    margin: 0px;
+}
+#box{
+    width: 340px;
+    height: 570px;
+    margin: 85px auto;
+    background-color: hsl(216, 50%, 16%);    ;
+    border-radius: 15px;
+     
+}
+img{
+    width: 290px;
+    border-radius: 8px;
+    position: relative;
+    top: 19px;
+    left: 25px;
+}
+#p1 p{
+    padding: 25px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+#p2 p{
+    font-weight: 300;
+    color:hsl(215, 51%, 70%) ;
+    position: relative;
+    left: 25px;
+    bottom: 20px;
+    
+}
+#flex {
+    display: flex; 
+}
+#flex  p{
+   flex: 1; 
+   display: flex;
+   margin: -15px 25px auto;  
+}
+svg{
+    flex: .6;
+}
+#f1{
+    color: hsl(178, 100%, 50%);
+}
+#f2{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+hr{
+    margin: 25px 25px 0px;
+    
+}
+
+footer img{
+    width: 30px;
+    border: 2px solid  hsl(0, 0%, 100%);
+    border-radius: 40px;
+}
+footer p{
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 175px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+ #n{
+    position: relative;
+    left: 30px;
+    font-weight: 400;
+    color:  hsl(0, 0%, 100%);
+}
